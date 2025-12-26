@@ -12,7 +12,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 		plugin = {"pretty", "html:target/cucumber-report.html"},
 		//tags = ("@login"),
 		//tags = ("@AboutLogout"),
-		tags = "",
+		//tags = "",
 		//glue = {"com.e2etests.automation.step_definitions"},
 		monochrome = true,
 		snippets = CAMELCASE
